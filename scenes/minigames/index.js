@@ -1,0 +1,12 @@
+export { MiniGame1Scene } from "./miniGame1";
+export { MiniGame2Scene } from "./miniGame2";
+export { MiniGame3Scene } from "./miniGame3";
+export { MiniGame4Scene } from "./miniGame4";
+export { MiniGame5Scene } from "./miniGame5";
+export { MiniGame6Scene } from "./miniGame6";
+export { MiniGame7Scene } from "./miniGame7";
+export { MiniGame8Scene } from "./miniGame8";
+export { MiniGame9Scene } from "./miniGame9";
+export { MiniGame10Scene } from "./miniGame10";
+export { MiniGame11Scene } from "./miniGame11";
+export { MiniGame12Scene } from "./miniGame12";

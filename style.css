@@ -1,8 +1,8 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --dkClr: black;
-  --liClr: whiteSmoke;
-  --accClr: grey;
+  --mainDark: black;
+  --mainLight: whiteSmoke;
+  --accentColor: grey;
 }
 
 * {
@@ -17,19 +17,11 @@ body {
 }
 
 body {
-  background-color: var(--dkClr);
-  color: var(--liClr);
+  background-color: var(--mainDark);
+  color: var(--mainLight);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-header,
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
 }
 
 main {
@@ -38,10 +30,6 @@ main {
 }
 
 #gameCanvas {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
   z-index: 1;
 }
